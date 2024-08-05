@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; /* Light gray background for the page */
+    display: flex; /* Enables flexbox on the body */
+    justify-content: center; /* Centers the container horizontally */
+    align-items: center; /* Centers the container vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    border-radius: 8px; /* Rounds the corners */
+  }
+  
+  h1 {
+    color: #333; /* Dark gray color for the heading */
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    color: #666; /* Medium gray color for the subheading */
+    margin-bottom: 30px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .qauntity_minus,
+  .qauntity_plus {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #4CAF50; /* Green background for the buttons */
+    color: #fff; /* White text color for the buttons */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounds the corners of the buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    user-select: none;
+  }
+  
+  .qauntity_minus:hover,
+  .qauntity_plus:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .quantity_inut {
+    width: 60px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 18px;
+    border: 2px solid #ccc; /* Light gray border for the input */
+    border-radius: 4px; /* Rounds the corners of the input */
+    padding: 5px;
+    background-color: #f9f9f9; /* Light background for the input */
+  }
+  
+  .quantity_inut:focus {
+    border-color: #4CAF50; /* Green border when focused */
+    outline: none; /* Removes default outline on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3); /* Adds shadow on focus */
+  }
+  
